@@ -61,7 +61,7 @@ This only contains lists for the boards I had on my desk.
 | C67     | 2200uF      | 25V     | Through hole | 16mm     | 7.5mm | 25mm tall                    |
 | C73     | 47uF        | 16v     | SMT          | 6.3mm    |       |                              |
 
-** Note:**
+**Note:**
 The C59 issue was known to Nintendo and was adressed in the SNSP-CPU-02 revision.
 Some consoles have been fixed by Nintendo and had their C59 replaced with a bipolar one.
 These fixed consoles usually have a small circular "C59" sticker on their underside.
