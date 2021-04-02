@@ -33,6 +33,7 @@ Pitch means lead spacing for radial caps (through-hole).
 Sample replacement list
 
 | Manufacturer  | Reference        | Quantity | Capacitance | Voltage | Type    | Diameter | Pitch |
+|---------------|------------------|----------|-------------|---------|---------|----------|-------|
 | Panasonic     | EEEFP1C101AP     | 4        | 100µF       | 6V      | SMT     | 6.3mm    |       |
 | Panasonic     | EEEFK1E100R      | 3        | 10µF        | 16V     | SMT     | 4.0mm    |       |
 | Panasonic     | EEE1HA2R2SR      | 1        | 2.2µF       | 50V     | SMT     | 4.0mm    |       |
