@@ -15,18 +15,18 @@ Pitch means lead spacing for radial caps (through-hole).
 
 | Marking | Capacitance | Voltage | Type   | Diameter | Pitch | Note             |
 |---------|-------------|---------|--------|----------|-------|------------------|
-| C50     | 47µF        | 10V     | Radial | 6.3mm    | 5mm   | For sound module | -----
-| C51     | 47µF        | 10V     | Radial | 6.3mm    | 5mm   | For sound module | -----
-| C57     | 100µF       | 6V      | SMT    | 6.3mm    |       |                  | -----
-| C58     | 100µF       | 6V      | SMT    | 6.3mm    |       |                  | -----
-| C59     | 100µF       | 6V      | SMT    | 6.3mm    |       |                  | -----
-| C60     | 100µF       | 6V      | SMT    | 6.3mm    |       |                  | -----
-| C61     | 10µF        | 16V     | SMT    | 4.0mm    |       |                  | -----
-| C62     | 2.2µF       | 50V     | SMT    | 4.0mm    |       |                  | -----
-| C63     | 33µF        | 25V     | SMT    | 6.3mm    |       |                  | -----
-| C64     | 33µF        | 25V     | SMT    | 6.3mm    |       |                  | -----
-| C65     | 10µF        | 16V     | SMT    | 4.0mm    |       |                  | -----
-| C66     | 10µF        | 16V     | SMT    | 4.0mm    |       |                  | -----
+| C50     | 47µF        | 10V     | Radial | 6.3mm    | 5mm   | For sound module |
+| C51     | 47µF        | 10V     | Radial | 6.3mm    | 5mm   | For sound module |
+| C57     | 100µF       | 6V      | SMT    | 6.3mm    |       |                  |
+| C58     | 100µF       | 6V      | SMT    | 6.3mm    |       |                  |
+| C59     | 100µF       | 6V      | SMT    | 6.3mm    |       |                  |
+| C60     | 100µF       | 6V      | SMT    | 6.3mm    |       |                  |
+| C61     | 10µF        | 16V     | SMT    | 4.0mm    |       |                  |
+| C62     | 2.2µF       | 50V     | SMT    | 4.0mm    |       |                  |
+| C63     | 33µF        | 25V     | SMT    | 6.3mm    |       |                  |
+| C64     | 33µF        | 25V     | SMT    | 6.3mm    |       |                  |
+| C65     | 10µF        | 16V     | SMT    | 4.0mm    |       |                  |
+| C66     | 10µF        | 16V     | SMT    | 4.0mm    |       |                  |
 | C67     | 1000µF      | 25V     | Radial | 13mm     | 5mm   | 25mm tall        |
 
 
