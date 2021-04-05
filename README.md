@@ -1,47 +1,46 @@
 
 # Overview
 
-This is a list I made myself of the electrolytics capacitors from Super Nintendo / Famicom motherboards.
+This is a list I made for myself of the electrolytics capacitors from Super Nintendo / Famicom motherboards.
 It includes all the specs from the original boards, in order to find exact modern replacements.
 
-This only contains lists for the boards I had on my desk.
+This only contains lists for the boards I repaired myself.
 
 
-Pitch means lead spacing for radial caps (through-hole).
+Pitch means lead spacing for radial leaded caps (through-hole).
+
+
+The capacitor_bom.xls contains a list of modern replacements for some of the boards.
+It can be imported on major resellers websites like Farnell, Digikey, Mouser...
+
+At the moment, it only contains a BOM for the SHVC-CPU-01 boards.
+
 
 # Super Famicom (NTSC)
 
 ## SHVC-CPU-01
 
-| Marking | Capacitance | Voltage | Type   | Diameter | Pitch | Note             |
-|---------|-------------|---------|--------|----------|-------|------------------|
-| C50     | 47µF        | 10V     | Radial | 6.3mm    | 5mm   | For sound module |
-| C51     | 47µF        | 10V     | Radial | 6.3mm    | 5mm   | For sound module |
-| C57     | 100µF       | 6V      | SMT    | 6.3mm    |       |                  |
-| C58     | 100µF       | 6V      | SMT    | 6.3mm    |       |                  |
-| C59     | 100µF       | 6V      | SMT    | 6.3mm    |       |                  |
-| C60     | 100µF       | 6V      | SMT    | 6.3mm    |       |                  |
-| C61     | 10µF        | 16V     | SMT    | 4.0mm    |       |                  |
-| C62     | 2.2µF       | 50V     | SMT    | 4.0mm    |       |                  |
-| C63     | 33µF        | 25V     | SMT    | 6.3mm    |       |                  |
-| C64     | 33µF        | 25V     | SMT    | 6.3mm    |       |                  |
-| C65     | 10µF        | 16V     | SMT    | 4.0mm    |       |                  |
-| C66     | 10µF        | 16V     | SMT    | 4.0mm    |       |                  |
-| C67     | 1000µF      | 25V     | Radial | 13mm     | 5mm   | 25mm tall        |
+| Marking | Capacitance | Voltage | Type   | Diameter | Pitch | Note      |
+|---------|-------------|---------|--------|----------|-------|-----------|
+| C50     | 47µF        | 10V     | Radial | 6.3mm    | 5mm   | See below |
+| C51     | 47µF        | 10V     | Radial | 6.3mm    | 5mm   | See below |
+| C57     | 100µF       | 6V      | SMT    | 6.3mm    |       |           |
+| C58     | 100µF       | 6V      | SMT    | 6.3mm    |       |           |
+| C59     | 100µF       | 6V      | SMT    | 6.3mm    |       |           |
+| C60     | 100µF       | 6V      | SMT    | 6.3mm    |       |           |
+| C61     | 10µF        | 16V     | SMT    | 4.0mm    |       |           |
+| C62     | 2.2µF       | 50V     | SMT    | 4.0mm    |       |           |
+| C63     | 33µF        | 25V     | SMT    | 6.3mm    |       |           |
+| C64     | 33µF        | 25V     | SMT    | 6.3mm    |       |           |
+| C65     | 10µF        | 16V     | SMT    | 4.0mm    |       |           |
+| C66     | 10µF        | 16V     | SMT    | 4.0mm    |       |           |
+| C67     | 1000µF      | 25V     | Radial | 13mm     | 5mm   | 25mm tall |
 
-
-Sample replacement list
-
-| Manufacturer  | Reference        | Quantity | Capacitance | Voltage | Type    | Diameter | Pitch |
-|---------------|------------------|----------|-------------|---------|---------|----------|-------|
-| Panasonic     | EEEFP1C101AP     | 4        | 100µF       | 6V      | SMT     | 6.3mm    |       |
-| Panasonic     | EEEFK1E100R      | 3        | 10µF        | 16V     | SMT     | 4.0mm    |       |
-| Panasonic     | EEE1HA2R2SR      | 1        | 2.2µF       | 50V     | SMT     | 4.0mm    |       |
-| Panasonic     | EEEFC1E330P      | 2        | 33µF        | 25V     | SMT     | 6.3mm    |       |
-| Panasonic     | EEUFC1V470       | 2        | 47µF        | 10V     | Radial  | 6.3mm    | 2.5mm |
-| Multicomp pro | MCRH25V108M13X21 | 1        | 1000µF      | 25V     | Radial  | 13mm     | 5mm   |
-
-**Note:** Need to recheck pitch for C50/C51
+Notes for C50 and C51:
+ - These caps are in the sound module (SHVC-SOUND)
+ - Maximum height from board to shield is 8mm
+ - Original caps were ~5mm tall
+ - Board pitch is 5mm, but original caps had 2mm pitch with bent legs
 
 
 ## SNS-CPU-GPM-02
@@ -111,6 +110,4 @@ Some useful links if you plan on restoring your SNES/SFC:
 
 # TODO
 
-- Recheck pitch for C50/C51 on SHVC-CPU-01 sound modules
-- Add parts list for other boards
-- Add a way to directly import a list of suitable replacements on Farnell/Digikey/Mouser
+- Extend BOM for other boards
