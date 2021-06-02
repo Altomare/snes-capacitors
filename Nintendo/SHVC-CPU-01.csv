@@ -1,6 +1,6 @@
 Marking,Capacitance,Voltage,Type,Diameter,Pitch,Note
-C50,47µF,10V,Radial,6.3mm,5mm,See below
-C51,47µF,10V,Radial,6.3mm,5mm,See below
+C50,47µF,10V,Radial,6.3mm,5mm,SHVC-SOUND - Max height 8mm - Original caps had bent legs
+C51,47µF,10V,Radial,6.3mm,5mm,SHVC-SOUND - Max height 8mm - Original caps had bent legs
 C57,100µF,6V,SMT,6.3mm,,
 C58,100µF,6V,SMT,6.3mm,,
 C59,100µF,6V,SMT,6.3mm,,
@@ -12,3 +12,9 @@ C64,33µF,25V,SMT,6.3mm,,
 C65,10µF,16V,SMT,4.0mm,,
 C66,10µF,16V,SMT,4.0mm,,
 C67,1000µF,25V,Radial,13mm,5mm,25mm tall
+
+Notes for C50 and C51:
+ - These caps are in the sound module (SHVC-SOUND)
+ - Maximum height from board to shield is 8mm
+ - Original caps were ~5mm tall
+ - Board pitch is 5mm, but original caps had 2mm pitch with bent legs
